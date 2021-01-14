@@ -1,0 +1,14 @@
+body {
+  font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  line-height: 1.846;
+  color: #666666;
+  background-color: #ffffff;
+}
+
+.navbar {
+  border: none;
+  -webkit-box-shadow: 0 0 0 rgba(0,0,0,0.3) !important;
+  box-shadow: 0 0 0 rgba(0,0,0,0.3) !important;
+}
+
