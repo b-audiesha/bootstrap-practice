@@ -7,14 +7,25 @@ body {
   padding: 0;
   width: 100%;
 }
+  .logo {
+        height: 105px;
+        width: 105px;
+    }
 
+@media (min-width: 576px) { 
+    .top-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+    }
 
-.logo {
-  height: 105px;
-  width: 105px;
-  border: none;
-
-}
 
 h1 {
   font-size: 64px;
@@ -131,11 +142,6 @@ img {
   width: 40px;
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
 
 .icons {
   display: flex;
@@ -153,11 +159,21 @@ ul {
   padding-top: 2px;
   font-family: 'Anton', sans-serif;
 }
-
-ul {
-  display: flex;
-  list-style: none;
-}
+@media (min-width: 992px) { 
+    .top-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;  
+        text-align: left;
+        width: 100%;
+    }
+   ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+    }
 
 
 @media screen and (max-width: 420px) {
@@ -175,4 +191,9 @@ ul {
   .xs-nav {
     display: none;
   }
+}
+
+.logo {
+  height:105px;
+  width:105px;
 }
